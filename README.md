@@ -33,6 +33,7 @@ This repository is intended as an accelerated starting point for implementing Am
 ```bash
 # Install dependencies 
 $ npm install
+$ npm install --global gulp-cli
 
 # Build project
 $ gulp
@@ -68,6 +69,7 @@ amp.inlineContent(JSON.parse(data));
 - `lory.js` is a slider library and is used for slider renders.
 
 ## Building minified and concatenated files
+NOTE: the buildAllMin command is not currently recommended (needs testing). You can just 'gulp' to compile as above.
 ```bash
 # Install dependencies 
 $ npm install
